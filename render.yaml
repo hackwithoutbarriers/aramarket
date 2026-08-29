@@ -38,8 +38,9 @@ services:
       - key: SUPABASE_JWKS_URL
         value: "https://drqzggozpiuzwxiouphh.supabase.co/auth/v1/.well-known/jwks.json"
 
-  - type: static
+  - type: web
     name: aramarket
+    env: static
     rootDir: "frontend"
     plan: free
     buildCommand: |
