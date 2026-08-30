@@ -63,9 +63,3 @@ services:
       - key: VITE_SUPABASE_ANON_KEY
         value: "sb_publishable_f87wyJw9zUeyUqqK_B69cg_dTmAYnJu"
         
-
-databases:
-  - name: aramarket-db
-    databaseName: aramarket
-    user: aramarket
-    plan: free
